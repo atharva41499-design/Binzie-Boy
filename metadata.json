@@ -1,0 +1,6 @@
+{
+  "name": "Brownie the Binzie Cat: Midnight Heist",
+  "description": "Play as Brownie, a fluffy orange tabby menace, inside a 3D reconstruction of his real apartment—wear down your humans through feline chaos and pull off the midnight treat heist.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
