@@ -6,14 +6,15 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Binzie-Boy/',
     plugins: [
       react(),
       tailwindcss(),
-      // Copies src/assets into dist/ so root-relative URLs like
-      // "/src/assets/images/..." (e.g. generate_image output) still resolve
-      // in production builds. Do not remove.
+      // copies src/assets into dist so root-relative URLs like
+      // '/src/assets/images/...' (e.g. generate_image output) still resolve
+      // in production builds. do not remove.
       {
-        name: 'copy-unbundled-src-assets',
+        name: 'copy-untangled-src-assets',
         apply: 'build',
         closeBundle(error?: Error): void {
           if (error) {
